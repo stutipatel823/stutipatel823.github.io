@@ -1,0 +1,71 @@
+h1{
+  font-size: 50px;
+}
+.skill-container {
+  /* border: 1px solid grey;
+  box-shadow: 5px 5px lightgrey; */
+  max-width: 1000px;
+  max-height: 1000px;
+  border-radius: 50px;
+  /* background-color: rgba(253, 252, 220, 255); */
+  /* background-color: #FBBC05; */
+  /* background-color: rgba(242,251,254,255); */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px; /* Adjust the gap size as needed */
+  margin: auto; /* Center the container horizontally */
+}
+
+.skill-item {/*each skill div*/
+  border: 3px solid #0282a7;
+  width: 100px;
+  height: 100px;
+  border-radius: 30%;
+  margin-right: 5px;
+  text-align: center;
+  position: relative;
+}
+.skill-icon{
+  width: 80%; /* Increase the size by 5% */
+  height: 80%; /* Increase the size by 5% */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.skill-icon-hover{
+  width: 80%; /* Increase the size by 5% */
+  height: 80%; /* Increase the size by 5% */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: none;
+
+}
+
+.skill-item:hover .skill-icon {
+  display: none;
+}
+
+.skill-item:hover .skill-icon-hover {
+  display: block;
+  border-radius: 30%;
+  transition-delay: 5s;
+}
+.skill-item p {
+  background-color: transparent;
+  margin: 10px 0 0;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
