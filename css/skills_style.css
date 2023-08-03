@@ -115,81 +115,30 @@ h1{
   right: 0;
   text-align: center;
 }
+.skill-item img{background-color: transparent;}
 
-/* Skill Item 2 */
-.skill-container #skill-item-2,
-.skill-container #skill-item-2 .skill-icon {
-  background-color: #eef2f8;
-}
-
-/* Skill Item 3 */
-.skill-container #skill-item-3,
-.skill-container #skill-item-3 .skill-icon {
+.yellow-bg{
   background-color: #f8f4eb;
+  /* background-color: #eef2f8; */
 }
-
-/* Skill Item 4 */
-.skill-container #skill-item-4,
-.skill-container #skill-item-4 .skill-icon {
+.orange-bg{
+  background-color: #f7f1f0;
+}
+.blue-bg{
+  background-color: #eef2f8;/*e9f0fa*/
+}
+.purple-bg{
+  background-color: #eeedf6;
+}
+.green-bg{
   background-color: #ebf2f0;
 }
-
-/* Skill Item 5 */
-.skill-container #skill-item-5,
-.skill-container #skill-item-5 .skill-icon {
-  background-color: #efeef3;
-}
-
-/* Skill Item 6 */
-.skill-container #skill-item-6,
-.skill-container #skill-item-6 .skill-icon {
-  background-color: #f8f4eb;
-}
-
-/* Skill Item 7 */
-.skill-container #skill-item-7,
-.skill-container #skill-item-7 .skill-icon {
-  background-color: #f1f0ee;
-}
-
-/* Skill Item 8 */
-.skill-container #skill-item-8,
-.skill-container #skill-item-8 .skill-icon {
-  background-color: #f8eeec;
-}
-
-/* Skill Item 9 */
-.skill-container #skill-item-9,
-.skill-container #skill-item-9 .skill-icon {
-  background-color: #f0f7f8;
-}
-
-/* Skill Item 10 */
-.skill-container #skill-item-10,
-.skill-container #skill-item-10 .skill-icon {
-  background-color: #e9f0fa;
-}
-
-/* Skill Item 11 */
-.skill-container #skill-item-11,
-.skill-container #skill-item-11 .skill-icon {
-  background-color: #e9f0fa;
-}
-
-/* Skill Item 12 */
-.skill-container #skill-item-12,
-.skill-container #skill-item-12 .skill-icon {
-  background-color: #f8eeec;
-}
-
-/* Skill Item 13 */
-.skill-container #skill-item-13,
-.skill-container #skill-item-13 .skill-icon {
+.black-bg{
   background-color: #e6e6e8;
 }
-
-/* Skill Item 14 */
-.skill-container #skill-item-14,
-.skill-container #skill-item-14 .skill-icon {
-  background-color: #ecf2f4;
+.aqua-bg{
+  background-color: #e9f3f5;
+}
+.red-bg{
+  background-color: #f8eff2;
 }
