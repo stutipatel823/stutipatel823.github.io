@@ -2,6 +2,10 @@
 <html>
 <head>
   <title>Stuti</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Stuti Patel">
+  <!-- <meta http-equiv="refresh" content="2">used to refress the page every 2 seconds -->
   <link rel="stylesheet" href="css/home_style.css">
   <link rel="stylesheet" href="css/skills_style.css">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" /> -->
@@ -15,6 +19,7 @@
   <div class="navbar">
     <div class="logo">
       <label>
+
         <img class="logo-img" src="assets/image/logo.png" height="50" width="175">
       </label>
     </div>
@@ -56,7 +61,7 @@
           })
         </script>
       <img class="profile" src="assets/image/profile-transparent.png" width="400" height="400">
-      <img class="desktop" src="assets/image/one.png"  width="900" height="600">
+      <!-- <img class="desktop" src="assets/image/one.png"  width="900" height="600"> -->
     </div>
   </center>
   </section>
@@ -64,21 +69,58 @@
   <!-- Skills -->
   <section id="skills">
     <h1>My Skills & Certificates</h1>
-    <div class="skill-container">
-        <div class="skill-item" id="skill-item-1"><img class="skill-icon" src="assets/skill-icons/icon-html(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-html.png"><p>HTML</p></div>
-        <div class="skill-item" id="skill-item-2"><img class="skill-icon" src="assets/skill-icons/icon-css(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-css.png"><p>CSS</p></div>
-        <div class="skill-item" id="skill-item-3"><img class="skill-icon" src="assets/skill-icons/icon-js(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-js.png"><p>Javascript</p></div>
-        <div class="skill-item" id="skill-item-4"><img class="skill-icon" src="assets/skill-icons/icon-nodeJs(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-nodeJs.png"><p>Node.js</p></div>
-        <div class="skill-item" id="skill-item-5"><img class="skill-icon" src="assets/skill-icons/icon-java(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-java.png"><p>Java</p></div>
-        <div class="skill-item" id="skill-item-6"><img class="skill-icon" src="assets/skill-icons/icon-python(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-python.png"><p>Python</p></div>
-        <div class="skill-item" id="skill-item-7"><img class="skill-icon" src="assets/skill-icons/icon-mysql(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-mysql.png"><p>MySQL</p></div>
-        <div class="skill-item" id="skill-item-8"><img class="skill-icon" src="assets/skill-icons/icon-swift(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-swift.png"><p>Swift</p></div>
-        <div class="skill-item" id="skill-item-9"><img class="skill-icon" src="assets/skill-icons/icon-react(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-react.png"><p>React</p></div>
-        <div class="skill-item" id="skill-item-10"><img class="skill-icon" src="assets/skill-icons/icon-kubernetes(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-kubernetes.png"><p>Kubernetes</p></div>
-        <div class="skill-item" id="skill-item-11"><img class="skill-icon" src="assets/skill-icons/icon-docker(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-docker.png"><p>Docker</p></div>
-        <div class="skill-item" id="skill-item-12"><img class="skill-icon" src="assets/skill-icons/icon-git(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-git.png"><p>Git VCS</p></div>
-        <div class="skill-item" id="skill-item-13"><img class="skill-icon" src="assets/skill-icons/icon-autodesk(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-autodesk.png"><p>Autodesk</p></div>
-        <div class="skill-item" id="skill-item-14"><img class="skill-icon" src="assets/skill-icons/icon-arduino(b&w).png"><img class="skill-icon-hover" src="assets/skill-icons/icon-arduino.png"><p>Arduino</p></div>
+    <div class="tab-container">
+      <div class="button-container">
+        <button class="tab-button active">Languages</button>
+        <!-- <button class="tab-button">Libraries</button> -->
+        <button class="tab-button">Tools</button>
+        <button class="tab-button">Design</button>
+      </div>
+
+      <div class="tab-panel" style="display: block;">
+        <div class="skill-container">
+          <div class="skill-item" id="skill-item-1" ><img class="skill-icon-hover" src="assets/skill-icons/icon-html(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-html.png"><p>HTML</p></div>
+          <div class="skill-item" id="skill-item-2"><img class="skill-icon-hover" src="assets/skill-icons/icon-css(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-css.png"><p>CSS</p></div>
+          <div class="skill-item" id="skill-item-3"><img class="skill-icon-hover" src="assets/skill-icons/icon-js(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-js.png"><p>Javascript</p></div>
+          <div class="skill-item" id="skill-item-5"><img class="skill-icon-hover" src="assets/skill-icons/icon-java(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-java.png"><p>Java</p></div>
+          <div class="skill-item" id="skill-item-6"><img class="skill-icon-hover" src="assets/skill-icons/icon-python(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-python.png"><p>Python</p></div>
+          <div class="skill-item" id="skill-item-7"><img class="skill-icon-hover" src="assets/skill-icons/icon-mysql(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-mysql.png"><p>SQL</p></div>
+          <div class="skill-item" id="skill-item-8"><img class="skill-icon-hover" src="assets/skill-icons/icon-swift(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-swift.png"><p>Swift</p></div>
+          <div class="skill-item" id="skill-item-8"><img class="skill-icon-hover" src="assets/skill-icons/icon-vhdl(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-vhdl.png"><p>VHDL</p></div>
+          <div class="skill-item" id="skill-item-8"><img class="skill-icon-hover" src="assets/skill-icons/icon-matlab(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-matlab.png"><p>MATLAB</p></div>
+        </div>
+      </div>
+
+      <!-- <div class="tab-panel">Tab2: Content
+        <div class="skill-container">
+          <div class="skill-item" id="skill-item-4"><img class="skill-icon-hover" src="assets/skill-icons/icon-nodeJs(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-nodeJs.png"><p>Node.js</p></div>
+          <div class="skill-item" id="skill-item-9"><img class="skill-icon-hover" src="assets/skill-icons/icon-react(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-react.png"><p>React</p></div>
+        </div>
+      </div> -->
+      <div class="tab-panel">
+        <div class="skill-container">
+          <div class="skill-item" id="skill-item-4"><img class="skill-icon-hover" src="assets/skill-icons/icon-nodeJs(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-nodeJs.png"><p>Node.js</p></div>
+          <div class="skill-item" id="skill-item-9"><img class="skill-icon-hover" src="assets/skill-icons/icon-react(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-react.png"><p>React</p></div>
+          <div class="skill-item" id="skill-item-9"><img class="skill-icon-hover" src="assets/skill-icons/icon-bootstrap(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-bootstrap.png"><p>Bootstrap</p></div>
+          <div class="skill-item" id="skill-item-10"><img class="skill-icon-hover" src="assets/skill-icons/icon-kubernetes(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-kubernetes.png"><p>Kubernetes</p></div>
+          <div class="skill-item" id="skill-item-11"><img class="skill-icon-hover" src="assets/skill-icons/icon-docker(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-docker.png"><p>Docker</p></div>
+          <div class="skill-item" id="skill-item-12"><img class="skill-icon-hover" src="assets/skill-icons/icon-git(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-git.png"><p>Git VCS</p></div>
+          <div class="skill-item" id="skill-item-12"><img class="skill-icon-hover" src="assets/skill-icons/icon-github.png"><img class="skill-icon" src="assets/skill-icons/icon-github.png"><p>Github</p></div>
+          <div class="skill-item" id="skill-item-12"><img class="skill-icon-hover" src="assets/skill-icons/icon-postman(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-postman.png"><p>Postman</p></div>
+        </div>
+      </div>
+      
+      <div class="tab-panel">
+        <div class="skill-container">
+          <div class="skill-item" id="skill-item-13"><img class="skill-icon-hover" src="assets/skill-icons/icon-autodesk(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-autodesk.png"><p>Autodesk</p></div>
+          <div class="skill-item" id="skill-item-14"><img class="skill-icon-hover" src="assets/skill-icons/icon-arduino(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-arduino.png"><p>Arduino</p></div>
+          <div class="skill-item" id="skill-item-14"><img class="skill-icon-hover" src="assets/skill-icons/icon-sketchup(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-sketchup.png"><p>Arduino</p></div>
+          <div class="skill-item" id="skill-item-14"><img class="skill-icon-hover" src="assets/skill-icons/icon-quartus(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-quartus.png"><p>Quartus</p></div>
+          <div class="skill-item" id="skill-item-14"><img class="skill-icon-hover" src="assets/skill-icons/icon-multisim(b&w).png"><img class="skill-icon" src="assets/skill-icons/icon-multisim.png"><p>Multisim</p></div>
+        </div>
+      </div>
+      <script src="skills_script.js"></script>
+     
     </div>
 </section>
 
