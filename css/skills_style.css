@@ -116,29 +116,3 @@ h1{
   text-align: center;
 }
 .skill-item img{background-color: transparent;}
-
-.yellow-bg{
-  background-color: #f8f4eb;
-  /* background-color: #eef2f8; */
-}
-.orange-bg{
-  background-color: #f7f1f0;
-}
-.blue-bg{
-  background-color: #eef2f8;/*e9f0fa*/
-}
-.purple-bg{
-  background-color: #eeedf6;
-}
-.green-bg{
-  background-color: #ebf2f0;
-}
-.black-bg{
-  background-color: #e6e6e8;
-}
-.aqua-bg{
-  background-color: #e9f3f5;
-}
-.red-bg{
-  background-color: #f8eff2;
-}
