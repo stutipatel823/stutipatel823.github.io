@@ -1,3 +1,10 @@
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
 .slider-container{
     width: 75%;
     height: 500px;
@@ -21,7 +28,7 @@
 .left-arrow button:hover,.right-arrow button:hover {
     transform: scale(1.1);
     cursor: pointer;
-    background-color: #fed0541A;
+    background-color: #fed0548A;
 }
 
 .card-set-container{

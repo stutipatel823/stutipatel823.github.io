@@ -9,7 +9,10 @@
   <link rel="stylesheet" href="css/home_style.css">
   <link rel="stylesheet" href="css/skills_style.css">
   <link rel="stylesheet" href="css/projects_style.css">
-
+  <link rel="stylesheet" href="css/contact_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.cdnfonts.com/css/ananda-black" rel="stylesheet">
+                
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" /> -->
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-zlxxi1v5mIpBo1V4rMeBu5hzow4Auh30/RqKz9QN0m2o4Fe3N17ty68Wxkdp7Sgl" crossorigin="anonymous"> -->
 
@@ -127,11 +130,8 @@
 </section>
 
 
-
-
   <!-- Projects -->
   <section id="projects">
-    <center>
     <h1>Projects</h1>
     <div class="slider-container">
         <div class="left-arrow"><button>👈</button></div>
@@ -231,14 +231,32 @@
         </div>
     </div>
     <script src="js/projects_script.js"></script>
-  </center>
   </section>
 
   <!-- Contact -->
   <section id="contact">
-    <h1>Contact</h1>
-    <p>Here you can add a contact form or your contact information</p>
+    <h1>Contact Me</h1>
+    <p>Wish to connect? Reach Out and Say Hello. I would love to speak to you!</p>
+    <form>
+    <div class="image-container"><img src="/assets/image/contactform(transparent).png"></div>
+    <div class="form-container">
+      <h1 class="title">Get In Touch!</h1>
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Email" required>
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="form-group">
+          <textarea type="text"class=" message-area" name="message" placeholder="Message" required></textarea>
+          <i class="fas fa-comment-dots"></i>
+        </div>
+        <div class="form-submit">
+          <input type="submit" value="Say Hello">
+         </div>
+      </form>
   </section>
-
 </body>
 </html>

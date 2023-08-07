@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    }
+
+    .form-group {
+      position: relative;
+      margin-bottom: 15px;
+    }
+
+    .form-group i {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      font-size: 16px;
+      color: #aaa;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="submit"] {
+      padding: 8px 30px 8px 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+
+    .form-group input[type="submit"] {
+      background-image: none;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .form-submit {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .form-submit:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <form>
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Name" required>
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Email" required>
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="form-group">
+        <input type="text" name="message" placeholder="Message" required>
+        <i class="fas fa-comment-dots"></i>
+      </div>
+      <input type="submit" class="form-submit" value="Say hello">
+    </form>
+  </div>
+</body>
+</html>
