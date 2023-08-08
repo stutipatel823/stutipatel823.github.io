@@ -77,12 +77,6 @@ form {
   cursor: pointer;
   
 } 
-.title{
-  font-family: 'Ananda', sans-serif;
-  font-size: 40px;
-  font-weight: bolder;
-  background-color: transparent;
-}
 @keyframes bounce{
   0% {
     transform: translateY(0px);
@@ -93,4 +87,79 @@ form {
   100% {
     transform: translateY(0px);
   }
+}
+
+.title{
+  /* font-family: 'Ananda', sans-serif; */
+  /* font-family: 'Brittany Signature', sans-serif; */
+  /* font-family: cursive; */
+                                                
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: transparent;
+}
+.handshake{
+  background-color: transparent;
+  animation: handshake-animation 2s infinite;
+  display: inline-block;
+}
+@keyframes handshake-animation {
+  0%{transform: translateY(0px);}
+  10%{transform: translateY(10px);}
+  20%{transform: translateY(0px);}
+  30%{transform: translateY(10px);}
+  40%{transform: translateY(0px);}
+  100%{transform: translateY(0px);}
+}
+
+footer .footer-container {
+  width: 100%;
+  min-height: fit-content;
+  background-color: #e93c3b;
+  border: 2px solid #fb0707;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+footer .footer-container p, .copyright-sign{
+  background-color: transparent;
+  color: white;
+}
+footer .footer-container p:nth-child(2){
+  font-size: 15px;
+  margin-top: -30px;
+}
+footer .footer-container .copyright-sign{
+  font-size: 2.3rem; 
+  vertical-align: -12px;
+}
+/* footer .social-icons{
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+} */
+footer .social-icons{
+  background-color: transparent;
+}
+footer .footer-container .social-icons a {
+  text-decoration: none;
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+footer .footer-container .social-icons i {
+  font-size: 20px;
+  color: black;
+  background-color: transparent;
+}
+footer .footer-container .social-icons i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: white;
+  background-color: black;
+  transition: transform 0.2s ease-out;
 }
