@@ -1,3 +1,6 @@
+#contact{
+  background-color: whitesmoke;
+}
 form {
   display: flex;
 }
@@ -75,8 +78,8 @@ form {
   background-size: 100% 100%;
   transform: translateY(-0.15em);
   cursor: pointer;
-  
 } 
+
 @keyframes bounce{
   0% {
     transform: translateY(0px);
@@ -132,8 +135,8 @@ footer .footer-container p:nth-child(2){
   margin-top: -30px;
 }
 footer .footer-container .copyright-sign{
-  font-size: 2.3rem; 
-  vertical-align: -12px;
+  font-size: 2rem; 
+  vertical-align: -10px;
 }
 /* footer .social-icons{
   font-size: 40px;

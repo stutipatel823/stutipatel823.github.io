@@ -6,19 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Stuti Patel">
   <!-- <meta http-equiv="refresh" content="2">used to refress the page every 2 seconds -->
-  <link rel="stylesheet" href="css/home_style.css">
+  <link rel="stylesheet" href="css/navbar_style.css">
+  <link rel="stylesheet" href="css/about_style.css">
   <link rel="stylesheet" href="css/skills_style.css">
   <link rel="stylesheet" href="css/projects_style.css">
   <link rel="stylesheet" href="css/contact_style.css">
+  <link rel="stylesheet" href="ex.css">
+  <link rel="stylesheet" href="ex2.css">
+  <link rel="stylesheet" href="css/home_style.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- website: font awesome-->
   <link href="https://fonts.cdnfonts.com/css/ananda-black" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/brittany-signature" rel="stylesheet">
                 
-              
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" /> -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-zlxxi1v5mIpBo1V4rMeBu5hzow4Auh30/RqKz9QN0m2o4Fe3N17ty68Wxkdp7Sgl" crossorigin="anonymous"> -->
-
-
 </head>
 
 <body>
@@ -26,7 +26,6 @@
   <div class="navbar">
     <div class="logo">
       <label>
-
         <img class="logo-img" src="assets/image/logo.png" height="50" width="175">
       </label>
     </div>
@@ -43,35 +42,89 @@
 
   <!-- About -->
   <section id="about">
-    <center>
-      <h2 class="intro">Hey, I'm <span style="color:#EA4335;text-shadow: 2px 2px 3px #9a8a89">Stuti Patel</span><span class="wave"> 👋</span></h2>
-      <h3 class="briefing">I'm a passionate Software Engineer with a love for all things tech! <br>Welcome to my world, where innovation meets creativity, and code comes to life.</h3>
-      <div class="header">
-        <div class="container">
-          <h1>I'm <span class="auto-type"></span></h1>
-        </div>
-        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-        <script>
-          var typed = new Typed(".auto-type", {
-            strings: [
-              "<span class='green'>a Software Engineer</span>",
-              "<span class='yellow'>also a Computer Engineer</span>",
-              "<span class='blue'>into Web Designing</span>",
-              "<span class='green'>into App Development</span>",
-              "<span class='yellow'>into Artificial Intelligence</span>",
-              "<span class='blue'>into Frontend</span>",
-              "<span class='green'>into Backend</span>"
-            ],
-            typeSpeed: 100,
-            backSpeed: 50,
-            loop: true,
-          })
-        </script>
-      <img class="profile" src="assets/image/profile-transparent.png" width="400" height="400">
-      <!-- <img class="desktop" src="assets/image/one.png"  width="900" height="600"> -->
+     
+    <div class="profile-container">
+      <div class="profile"><img src="trial.png"></div>
+      <div class="resume-container" style="margin-top: 20px;">
+        <a href="#">
+          <button class="button" style="margin-right: 5px;">View Resume</button>
+        </a>
+        <a href="#project">
+          <button class="button">Projects</button>
+        </a>
+      </div>
     </div>
-  </center>
+    
+    <div class="introduction-container">
+      <h2 class="intro">Hey, I'm <span style="color:#EA4335;text-shadow: 2px 2px 3px #9a8a89">Stuti Patel </span><span class="wave">👋</span></h2>
+        <div class="typing-container">
+          <h1>I'm <span class="auto-type"></span></h1>
+          <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+          <script>
+            var typed = new Typed(".auto-type", {
+              strings: [
+                "<span class='blue'>a Software Engineer</span>",
+                "<span class='blue'>also a Computer Engineer</span>",
+                "<span class='blue'>into Web Designing</span>",
+                "<span class='blue'>into App Development</span>",
+                "<span class='blue'>into Artificial Intelligence</span>",
+                "<span class='blue'>into Frontend</span>",
+                "<span class='blue'>into Backend</span>"
+              ],
+              typeSpeed: 100,
+              backSpeed: 50,
+              loop: true,
+            })
+          </script> 
+          </div>
+
+            <div class="socialmedia-conatiner">
+              <div class="socialmedia-icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+              <div class="socialmedia-icon"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+              <div class="socialmedia-icon"><a href="#"><i class="fa-brands fa-github"></i></a></div>
+              <div class="socialmedia-icon"><a href="#"><i class="fa-regular fa-envelope"></i></a></div>
+            </div>
+
+          
+
+        </div>
+
+    
   </section>
+
+<!-- 
+  <section id="home">
+      <img class="desktop" src="assets/image/one.png"  width="450" height="300">
+      <div class="block-container">
+        <div class="block">1</div>
+        <div class="block">2</div>
+        <div class="block">3</div>
+        <div class="block">4</div>
+        <div class="block">5</div>
+        <div class="block">6</div>
+        <div class="block">7</div>
+      </div>    
+      <div class="briefing"> <h3>I'm a passionate <span style="background: linear-gradient(to right, #3498db, #2980b9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Software Engineer</span> with a love for all things tech! <br>Welcome to my world, where innovation meets creativity, and code comes to life.</h3></div>       
+  </section> -->
+  <section id="home">
+    <div class="block-container">
+      <div class="block" style="background-color: #225b739A; border: 1px solid #225b73; box-shadow: 0 0 15px #225b73;"><img src="assets/icons/icon1.png"></div>
+      <div class="block" style="background-color: #88c5ed2A; border: 1px solid #88c5ed; box-shadow: 0 0 15px #88c5ed;"><img src="assets/icons/icon2.png"></div>
+      <div class="block" style="background-color: #ffb4208A; border: 1px solid #ffb420; box-shadow: 0 0 15px #ffb420;"><img src="assets/icons/icon3.png"></div>
+      <div class="block" style="background-color: #dd4d4c6A; border: 1px solid #dd4d4c6A; box-shadow: 0 0 15px #dd4d4c;"><img src="assets/icons/icon7.png"></div>
+      <div class="block" style="background-color: #e7e9ed9A; border: 1px solid grey; box-shadow: 0 0 15px grey;"><img src="assets/icons/icon5.png"></div>
+      <div class="block" style="background-color: #2853423A; border: 1px solid #2853429A; box-shadow: 0 0 15px #2853429A;"><img src="assets/icons/icon89.png"></div>
+      <div class="block" style="background-color: #1b1918; border: 1px solid #1b1918; box-shadow: 0 0 15px #1b1918;"><img src="assets/icons/icon85.png"></div>
+    </div>
+    <div class="briefing">
+      <h3>I'm a passionate <span style="background: linear-gradient(to right, #3498db, #2980b9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Software Engineer</span> with a love for all things tech! <br>Welcome to my world, where innovation meets creativity, and code comes to life.</h3>
+    </div>
+  </section>
+  
+
+  
+
+
 
   <!-- Skills -->
   <section id="skills">
