@@ -1,5 +1,19 @@
 #contact{
   background-color: whitesmoke;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.contactme-title-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactme-title-container h3{
+  position: relative;
+  top: -50px;
+  color: grey;
 }
 form {
   display: flex;

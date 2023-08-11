@@ -1,11 +1,59 @@
 #projects{
     background-color: whitesmoke;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     height: 100vh;
 }
+.projects-title-container{
+    display: flex;
+    /* border: 1px solid sandybrown; */
+}
+.gear-container {
+    position: relative;
+    /* top: 10px; */
+    width: 150px;
+    height: 100px;
+    /* border: 1px solid seagreen; */
+    
+}
+
+#gear1, #gear2, #gear3 {
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    font: outline;
+}
+
+#gear1 {
+    color: #ffd693;
+    top: 53px;
+    left: 28px;
+}
+
+#gear2 {
+    color: #ffb420;
+    top: 20px;
+    left: 60px;
+}
+
+#gear3 {
+    color: #ffd693;
+    top: 52px;
+    left: 94px;
+}
+
+.spin {
+    animation: spin 4s linear infinite;
+}
+
+.spin-back {
+    animation: spin-back 4s linear infinite;
+}
+
+@keyframes spin { 100% { transform: rotate(360deg); } }
+@keyframes spin-back { 100% { transform: rotate(-360deg); } }
 .slider-container{
     width: 75%;
     height: 500px;
@@ -13,6 +61,9 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    position: relative;
+    top: -100px;
+
 }
 
 .left-arrow button,.right-arrow button {
@@ -21,9 +72,9 @@
     font-size: 45px;
     border-radius: 50%;
     transition: transform 0.2s ease-in-out;
-    box-shadow: 5px 0 10px #fed054;
     background-color: #fed0542A;
     border: 2px solid #fed054;
+   
 }
 
 .left-arrow button:hover,.right-arrow button:hover {
@@ -35,10 +86,10 @@
 .card-set-container{
     width: 80%;
     height: 80%;
-    border: 1px solid #fed054;
-    border-radius: 5px 25px;
-    box-shadow: 2px 0 10px #fed054;
-    background-color: #fed0541A;
+    border: 2px solid #fed054;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: 1px 0 10px #fed054, -1px 0 50px #fed054;
+    background-color: #fed0542A;
 
     display: flex;
     justify-content: space-evenly;
@@ -53,7 +104,6 @@
     width: 28%;
     height: 90%;
     border: 1px solid black;
-    box-shadow: -2px 2px black;    
     background-color: white;
 
     display: flex;
@@ -72,8 +122,11 @@
 .card-container .top{
     width: 90%;
     height: 40%;
-    border: 1px dashed black;
+    border: 1px solid black;
+    /* box-shadow: 5px 5px 0 #ffd693, 5px 5px 0 1px black; */
     border-radius: 5px;
+    position: relative;
+    top: 5px;
 
 }
 .card-container .top img{
@@ -138,7 +191,7 @@
     
     position: absolute; /*absolute to the parent tag "slider-container"*/
     left: 45%;
-    top: 95%;
+    top: 100%;
     
     display: flex;
     justify-content: space-evenly;
