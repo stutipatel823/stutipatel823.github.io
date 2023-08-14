@@ -7,8 +7,9 @@
   /* width: 100vw; */
   background-color: whitesmoke;
 }
-h1{
-  font-size: 50px;
+
+#skills h1{
+  margin: 80px;
 }
 .tab-container {
   width: 75%;
