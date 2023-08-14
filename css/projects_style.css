@@ -12,14 +12,16 @@
 
 }
 .projects-title-container{
+    width: 100%;
+    height: 20%;
     display: flex;
     /* border: 1px solid sandybrown; */
     justify-content: center;
     /* background-color: #ffd301; */
-    position: relative;;
-    width: 100%;
-    height: 20%;
-    top: -40px;
+    /* position: relative;
+    top: -40px; */
+
+  
 }
 .gear-container {
     position: relative;
@@ -36,6 +38,7 @@
     font-size: 50px;
     font: outline;
     color: black;
+    color: #ffd301;
 }
 
 #gear1 {
@@ -54,6 +57,7 @@
     /* color: brown;
     color: #FDFD96;
     color:#183153; */
+    color: #e4a21f;
 
 
     top: 20px;
@@ -88,8 +92,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* position: absolute; */
-    top: 0px;
+    position: relative;
+    /* border: 1px solid hotpink; */
+    top: -100px;
 }
 
 .left-arrow button,.right-arrow button {
@@ -128,6 +133,7 @@
     border: 1px solid black;
     border-radius: 20px;
     background-color: white;
+    box-shadow: 1px 1px 20px 0px #fed054;
     
     display: flex;
     flex-direction: column;
@@ -147,7 +153,7 @@
 }
 .card-container:hover{
     transform: translateY(-5px);
-    transition: transform 0.3s ease-in;;
+    transition: transform 0.3s ease-in;
 }
 
 .card-container .top{
