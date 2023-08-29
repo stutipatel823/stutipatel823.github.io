@@ -1,5 +1,6 @@
 #home{
     background-color: #e2f5f7;
+    width: 100vw;
     height: 200px;
     display: flex;
     align-items: center;

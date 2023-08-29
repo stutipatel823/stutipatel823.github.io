@@ -1,5 +1,6 @@
 #contact{
   background-color: whitesmoke;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -130,7 +131,7 @@ form {
 }
 
 footer .footer-container {
-  width: 100%;
+  width: 100vw;
   min-height: fit-content;
   background-color: #e93c3b;
   border: 2px solid #fb0707;

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Product+Sans&display=swap');
-
 * {
   font-family: 'Product Sans', sans-serif;
   text-decoration: none;
@@ -7,31 +6,51 @@
   /* background-color: transparent; */
   color: black;
 }
+:root{
+  --color-primary: #6c63ff;
+  --color-red: #ff3130;
+  --color-orange:#fbbc05;
+  --color-yellow:#fed054;
+  --color-blue: #21aec0;
+  --container-width-lg: 76%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+}
+
 h1{
   font-size: 50px;
 }
-.navbar {
+html{
+  scroll-behavior: smooth;
+}
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 1px 4px rgba(146,161,176,.3);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 5px 3px;
 }
-
-.navbar li {
+header nav li {
   display: inline-block;
   margin-right: 30px;
   font-size: 20px;
   font-weight: 700;
 }
-.navbar li a{
+header nav li a{
   position: relative;
   text-decoration: none;
   font-size: 1em;
   color: #333;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
 }
-
-.navbar li a::before{
+header nav li a::before{
   content: '';
   position: absolute;
   width: 100%;
@@ -43,12 +62,13 @@ h1{
   transition: transform 0.5s ease-in-out;
   transform-origin: right;
 }
-.navbar li a:hover::before{
+header nav li a:hover::before{
   transform: scaleX(1);
   transform-origin: left;
 }
-
-.navbar li a.active {
+header nav li a.active{
   color: #21aec0; 
 }
-
+header button{
+  display: none;
+}

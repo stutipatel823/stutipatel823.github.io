@@ -23,22 +23,24 @@
 
 <body>
   <!-- Navbar -->
-  <div class="navbar">
-    <div class="logo">
-      <label>
-        <img class="logo-img" src="assets/image/logo.png" height="50" width="175">
-      </label>
-    </div>
-
-    <nav>
-      <ul>
-        <li><a href="#about" data-hover="About" class="active">ABOUT ME</a></li>
-        <li><a href="#skills" data-hover="Skills">SKILLS</a></li>
-        <li><a href="#projects" data-hover="Projects">PROJECTS</a></li>
-        <li><a href="#contact" data-hover="Contact">CONTACT</a></li>
-      </ul>
-    </nav>
-  </div>
+  <header>
+      <div class="logo">
+        <label>
+          <img class="logo-img" src="assets/image/logo.png" height="50" width="175">
+        </label>
+      </div>
+      <nav class="extended-nav">
+        <ul>
+          <li><a href="#about" data-hover="About" class="active">ABOUT ME</a></li>
+          <li><a href="#skills" data-hover="Skills">SKILLS</a></li>
+          <li><a href="#projects" data-hover="Projects">PROJECTS</a></li>
+          <li><a href="#contact" data-hover="Contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+      <button id="close-menu-btn"><i class="fa-solid fa-xmark" style="font-size: 40px;"></i></button>
+      <script src="js/navbar_script.js"></script>
+  </header>
 
   <!-- About -->
   <section id="about">
@@ -46,10 +48,10 @@
     <div class="profile-container">
       <div class="profile"><img src="trial.png"></div>
       <div class="resume-container" style="margin-top: 20px;">
-        <a href="#">
+        <a href="assets/Resume.pdf" target="_blank">
           <button class="button" style="margin-right: 5px;">View Resume</button>
         </a>
-        <a href="#project">
+        <a href="#projects">
           <button class="button">Projects</button>
         </a>
       </div>
@@ -79,17 +81,12 @@
           </div>
 
             <div class="socialmedia-conatiner">
-              <div class="socialmedia-icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
-              <div class="socialmedia-icon"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
-              <div class="socialmedia-icon"><a href="#"><i class="fa-brands fa-github"></i></a></div>
-              <div class="socialmedia-icon"><a href="#"><i class="fa-regular fa-envelope"></i></a></div>
+              <div class="socialmedia-icon"><a href="https://ca.linkedin.com/in/stuti-patel-a197761a6" traget="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+              <div class="socialmedia-icon"><a href="https://github.com/stutipatel823" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+              <div class="socialmedia-icon"><a href="#contact"><i class="fa-regular fa-envelope"></i></a></div>
+              <div class="socialmedia-icon"><a href="https://www.instagram.com/stuti._patel/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
             </div>
-
-          
-
-        </div>
-
-    
+        </div> 
   </section>
 
   <section id="home">
@@ -307,10 +304,10 @@
         <p>Copyright <span class="copyright-sign">&copy;</span> 2023 ~ Stuti Patel</p>
         <p>All Rights Reserved</p>
         <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="#"><i class="fa-brands fa-github"></i></a>
             <a href="#"><i class="fa-regular fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </div>
   </footer>
