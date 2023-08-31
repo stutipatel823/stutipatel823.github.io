@@ -4,6 +4,7 @@
     height: 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .briefing h3{
     color: black;
@@ -101,3 +102,15 @@
     transform: translateX(0);
   }
 }
+@media (max-width: 915px) {
+  #home{
+    background-color: aquamarine;
+  }
+  .block-container{
+    position: relative;
+    left: -30px;
+  }
+  #home h3{
+   font-size: smaller;
+  }
+ }

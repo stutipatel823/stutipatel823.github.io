@@ -126,7 +126,7 @@
   position: relative;
   top: -20px;
 }
-@media (width<700px){
+@media (max-width: 915px){
   #about{
     display: flex;
     justify-content: center;
@@ -150,6 +150,6 @@
   }
   .socialmedia-conatiner{
     position: absolute;
-    top: 80%;
+    top: 72%;
   }
 }
