@@ -1,7 +1,7 @@
 #projects{
+    /* position: absolute;
+    top: -5%; */
     background-color: whitesmoke;
-    /* background-color: #FFFFEA; */
-    /* background-color: #fdfd970A; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,21 +12,15 @@
 
 }
 .projects-title-container{
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 20%;
-    display: flex;
-    /* border: 1px solid sandybrown; */
-    justify-content: center;
-    /* background-color: #ffd301; */
-    /* position: relative;
-    top: -40px; */
 }
 .gear-container {
     position: relative;
-    /* top: 10px; */
     width: 150px;
     height: 100px;
-    /* border: 1px solid seagreen; */
     
 }
 
@@ -35,43 +29,28 @@
     position: absolute;
     font-size: 50px;
     font: outline;
-    color: black;
     color: #ffd301;
+
 }
 
 #gear1 {
-    /* color: #ffd693;  */
-    /* color: brown; */
-    /* color: #FDFD96; */
-    /* color:#183153; */
-    /* color: white; */
-
     top: 53px;
     left: 28px;
 }
 
 #gear2 {
-    /* color: #ffb420; */
-    /* color: brown;
-    color: #FDFD96;
-    color:#183153; */
     color: #e4a21f;
-
-
     top: 20px;
     left: 60px;
 }
 
 #gear3 {
-    /* color: #ffd693; */
-    /* color: brown;
-    color: #FDFD96;
-    color:#183153; */
-    
     top: 52px;
     left: 94px;
 }
-
+h1{
+    font-size: 50px;
+}
 .spin {
     animation: spin 4s linear infinite;
 }
@@ -91,10 +70,7 @@
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    /* border: 1px solid hotpink; */
     top: -100px;
-    flex-wrap: wrap;
-
 }
 
 .left-arrow button,.right-arrow button {
@@ -117,16 +93,9 @@
 .card-set-container{
     width: 80%;
     height: 100%;
-    /* border: 2px solid lightcoral; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.card-set-container:not(.active){
-    display: none;
 }
 
 .card-container{
@@ -135,15 +104,12 @@
     border: 1px solid black;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 1px 1px 20px 0px #fed054;
     
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     position: relative;
-    flex-wrap: wrap;
-
 }
 .card-container::before{
     content: '';
@@ -157,7 +123,7 @@
 }
 .card-container:hover{
     transform: translateY(-5px);
-    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in;;
 }
 
 .card-container .top{
@@ -178,7 +144,6 @@
     max-width: 90%;
     max-height: fit-content;
     background-color: transparent;
-    /* border: 2px dotted deeppink; */
 }
 
 .card-container .bottom p{
@@ -190,7 +155,6 @@
     font-size: 25px;
     text-align: center;
     color: brown;
-    /* border: 1px dotted plum; */
 }
 
 
@@ -203,13 +167,8 @@
     border-radius: 50px;
     border: 2px solid #fed054;
     background-color: #ffd43b;
+}
 
-    /* border: 2px solid aquamarine;
-    background-color: #28e5a6; */
-}
-.sources p{
-    /* color: crimson; */
-}
 .sources:hover p{
     display: none;
 }
@@ -217,8 +176,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: #183153;*/
-    /* border: 2px dashed black;  */
 }
 .sources:hover i{display: block;}
 
@@ -226,24 +183,20 @@
     font-size: 20px;
     border-radius: 50%;
     padding: 5px;
-    /* border: 1px dotted white; */
     border: 1px dotted black;
-
-    /* color:#fed054; */
     color: black;
-
     background-color: transparent;
     display: none;
 }
 a{text-decoration: none;}
 .pages-tab-container{
-    width: 80px;
+    min-width: 80px;
     height: 30px;
     border-radius: 20px / 20px;
     border: 2px solid #fed054;
 
     background-color: #fed0541A;
-    position: absolute; /*absolute to the parent tag "slider-container"*/
+    position: absolute; 
     left: 45%;
     top: 100%;
     
@@ -268,16 +221,3 @@ a{text-decoration: none;}
     border: 2px solid #e4a21f;
     background-color: #e4a21f1A;
 }
-
-@media (max-width: 910px) {
-    .left-arrow, .right-arrow,
-    .card-container:nth-child(2), .card-container:nth-child(3)
-    ,.pages-tab-container{
-      display: none;
-    }
-  
-     .card-container {
-      width: 100%;
-    }
-  }
-  

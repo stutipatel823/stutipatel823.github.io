@@ -1,0 +1,146 @@
+[
+    {
+      "id": "card-1",
+      "image": "assets/project-images-icons/stafe.png",
+      "title": "Stafe",
+      "skills": "SKILLS: Autodesk, Arduino, HTML, CSS, C++",
+      "sources": {
+        "website": "https://sites.google.com/view/stafe-stay-safe/home",
+        "github": "https://github.com/your-username/project-repo",
+        "external": "https://external-link.com"
+      }
+    },
+    {
+      "id": "card-2",
+      "image": "assets/project-images-icons/MakeupUniverse.png",
+      "title": "Makeup Universe",
+      "skills": "SKILLS: Java, HTML, CSS, SQL, RestAPI, Kubernetes, Docker",
+      "sources": {
+        "website": "https://sites.google.com/view/stafe-stay-safe/home",
+        "github": "https://github.com/your-username/project-repo",
+        "external": "https://external-link.com"
+      }
+    },
+    {
+      "id": "card-3",
+      "image": "assets/project-images-icons/PyroDetective.png",
+      "title": "PyroDetective",
+      "skills": "SKILLS: Autodesk, Arduino, C++",
+      "sources": {
+        "website": "https://sites.google.com/view/stafe-stay-safe/home",
+        "github": "https://github.com/your-username/project-repo",
+        "external": "https://external-link.com"
+      }
+    },
+    {
+      "id": "card-4",
+      "image": "",
+      "title": "Card 4",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    },
+    {
+      "id": "card-5",
+      "image": "",
+      "title": "CARD 5",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    },
+    {
+      "id": "card-6",
+      "image": "",
+      "title": "CARD 6",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    },
+    {
+      "id": "card-7",
+      "image": "",
+      "title": "CARD 7",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    },
+    {
+      "id": "card-8",
+      "image": "",
+      "title": "CARD 8",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    },
+    {
+      "id": "card-9",
+      "image": "",
+      "title": "CARD 9",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    },
+    {
+      "id": "card-10",
+      "image": "",
+      "title": "CARD 10",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    },
+    {
+      "id": "card-11",
+      "image": "",
+      "title": "CARD 11",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    },
+    {
+      "id": "card-12",
+      "image": "",
+      "title": "CARD 12",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    },
+    {
+      "id": "card-13",
+      "image": "",
+      "title": "CARD 13",
+      "skills": "SKILLS:",
+      "sources": {
+        "website": "",
+        "github":"",
+        "external": ""
+      }
+    }
+  ]
+  
